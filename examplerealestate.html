@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+<meta name="author" content="">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <title>Example Real Estate</title>
+    <style>
+
+    body {font-family: Georgia;}
+    .socialContact {background-color: #dbfffc;}
+ .socialContact a {color: #87bbff;}
+.socialContact li {display: inline;}
+.contactLinks {float: right;}
+
+
+
+.jumbotron {background-image: url('https://images.pexels.com/photos/534171/pexels-photo-534171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+background-size: cover;
+height: 600px;}
+
+.jumbotron {text-align: center;}
+
+form {margin: auto;}
+
+#search {float: right;}
+
+.searchForm {background-color: #dbfffc;
+width: 50%;
+margin: auto;
+padding: 10px;}
+
+
+.text-box img {display: block;
+margin:auto;
+height: 300px;
+width: 100%;}
+.text-box {float: center;}
+/*.text-box {text-align: center;}*/
+
+.text-box {background-color: #f0f0f0;
+height: 100%;
+margin: 5px;}
+
+
+
+.text-box h4 {padding: 2px;}
+
+.text-box p {padding: 2px;}
+
+.text-box .btn-warning {float: right;}
+
+.btn-warning {background-color: #fff;
+border-color: #000;
+}
+.btn-warning:hover{
+     background: #dbfffc;
+     border-color: #000;
+}
+.CTA {padding: 10px;
+margin: 10px;}
+
+
+.CTA img {margin: 10px;}
+
+footer {background-color: #777b7d;}
+
+footer {font-color: #e6e4db !important;}
+
+footer ul {list-style: none;}
+
+footer a {color: #87bbff;}
+
+
+</style>
+  </head>
+  <body>
+  	<!--Social media-->
+ <header class="socialContact">
+ 	<div class="row">
+ 		<div class="col-xs-12 col-sm-6">
+ 	<ul>
+ 		<li><a class="socialLinks" href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+ 		<li><a class="socialLinks" href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+ 		<li><a class="socialLinks" href="#"><i class="fab fa-google-plus-square fa-2x"></i></a></li>
+ 	</div>
+ 	</ul>
+ 		<div class="col-xs-12 col-sm-6">
+ 			<span>
+ 		<a class="contactLinks" href="tel:1-800-000-0000"><i class="fas fa-phone"></i> 1-800-000-0000</a><br>
+ 	<a class="contactLinks" href="mailto: example@outlook.com"><i class="far fa-envelope"></i> Example@outlook.com</a></span>
+ 		
+ 	</div>
+ </header>
+ <!--nav bar-->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><i class="fas fa-home fa-3x"></i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+     
+    </ul>
+  </div>
+</nav>
+
+<!--Jumbotron-->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Time To Go Home</h1>
+    <p class="lead">Find Your New Place To Hang Your Hat</p>
+    <a href="#text-boxes"><button class="btn btn-warning btn-lg" id="seeMore">See More</button></a>
+  </div>
+</div>
+
+<!--Search Form-->
+<div class="searchForm">
+	<div class="text-center">
+<div class="container">
+<div class="row">
+
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary" id="search">Search <i class="fas fa-search"></i></button>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+<!--Houses-->
+<div class="container"  id="#text-boxes">
+<div class="row">
+	
+	<div class="col-xs-12 col-sm-4">
+		<div class="text-box">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Gingerbread_House_Essex_CT.jpg/220px-Gingerbread_House_Essex_CT.jpg">
+		
+		<h4>lorem ipsum</h4>
+		<p>$000 000</p>
+		<a href="#"><button class="btn-warning btn-sm">See more</button></a>
+	</div>
+	</div>
+	<div class="col-xs-12 col-sm-4">
+		<div class="text-box">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Vasskertentrance.jpg">
+				<h4>lorem ipsum</h4>
+		<p>$000 000</p>
+		<a href="#"><button class="btn-warning btn-sm">See more</button></a>
+	</div>
+	</div>
+	<div class="col-xs-12 col-sm-4">
+		<div class="text-box">
+		<img src="https://cdn.houseplans.com/product/q5qkhirat4bcjrr4rpg9fk3q94/w800x533.jpg?v=8">
+	
+		<h4>lorem ipsum</h4>
+		<p>$000 000</p>
+		<a href="#"><button class="btn-warning btn-sm">See more</button></a>
+	</div>
+	</div>
+</div>
+<hr>
+<div class="row">
+	<div class="col-xs-12 col-sm-4">
+		<div class="text-box">
+		<img src="https://circaoldhouses.com/wp-content/uploads/2017/10/key-hole-house-1.jpg">
+<h4>lorem ipsum</h4>
+		<p>$000 000</p>
+		<a href="#"><button class="btn-warning btn-sm">See more</button></a>
+	</div>
+	</div>
+	<div class="col-xs-12 col-sm-4">
+		<div class="text-box">
+		<img src="https://www.theplancollection.com/Upload/Designers/161/1003/1470_Elev_891_593.jpg">
+				<h4>lorem ipsum</h4>
+				<p>$000 000</p>
+				<a href="#"><button class="btn-warning btn-sm">See more</button></a>
+			</div>
+	</div>
+	<div class="col-xs-12 col-sm-4">
+		<div class="text-box">
+		<img src="https://images.pexels.com/photos/462358/pexels-photo-462358.jpeg?cs=srgb&dl=garden-house-lawn-462358.jpg&fm=jpg">
+				<h4>lorem ipsum</h4>
+				<p>$000 000</p>
+				<a href="#"><button class="btn-warning btn-sm">See more</button></a>
+			</div>
+	</div>
+</div>
+
+</div>
+<hr>
+<div class="text-center">
+<a href="#"><button class="btn btn-warning btn-lg" id="seeMore">See More</button></a>
+
+</div>
+<br>
+<!--CTA-->
+	<div class="CTA">
+<div class="container">
+<div class="row">
+	<div class="col-xs-12 col-sm-6">
+	<h3>Make Yourself at Home</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam auctor libero congue, luctus diam sit amet, egestas massa. Curabitur porttitor, nisl nec cursus convallis, nunc diam posuere ante, nec vestibulum metus urna in arcu. Maecenas viverra ultrices tortor ac condimentum.</p>
+	<button class="btn btn-warning">Learn More</button>
+	</div>
+	<div class="col-xs-12 col-sm-6">
+		<img class="img-responsive" src="https://images.pexels.com/photos/101808/pexels-photo-101808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" height="400px"> 
+	</div>
+</div>
+</div>
+</div>
+<!--Footer-->
+<footer>
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-4">
+<h3>Pretend Business</h3>
+<p>p sherman 42 wallaby way sydney</p>
+</div>
+
+
+<div class="col-xs-12 col-sm-4">
+<h3>Privacy</h3>
+<ul>
+<li><a href="#">Link</a></li>
+<li><a href="#">Link</a></li>
+<li><a href="#">Link</a></li>
+</ul>
+</div>
+
+<div class="col-xs-12 col-sm-4">
+<div class="text-center">
+<div class="social">
+<a href="#"><i class="fab fa-facebook-square fa-3x"></i></a> <a href="#"><i class="fab fa-twitter-square fa-3x"></i></a> <a href="#"><i class="fab fa-google-plus fa-3x"></i></a>
+</div>
+</div>
+</div>
+</div>
+<span>&copy Kelsey Scott 2018</span>
+</div>
+</footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
